@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dock apps, in order (4 to 7 entries). The grid below uses the same number of columns.
+         Packages that are not installed are skipped and filled with other apps.
+         Fourth slot is Google Play Store: swap it for anything you like. -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.android.vending</item>
+    </string-array>
+
+    <!-- Apps that never show up in the grid. -->
+    <string-array name="hidden_apps">
+        <item>com.tcl.factory.view</item>
+    </string-array>
+</resources>
